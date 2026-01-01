@@ -6,7 +6,7 @@
     <PackAsTool>true</PackAsTool>
     <!-- Optional performance setting - enables tiered JIT compilation-->
     <TieredCompilation>true</TieredCompilation>
-    <TargetFramework>net5.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <ApplicationIcon>program.ico</ApplicationIcon>
     <PackageId>dotnet-cnblog</PackageId>
     <Authors>stulzq</Authors>

@@ -68,8 +68,8 @@ namespace Dotnetcnblog
         {
             var context=new CommandContext();
 
-            var docPath = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
-            context.AppConfigFilePath = Path.Combine(docPath,"dotnet-cnblog", CfgFileName);
+            var cfgPath = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+            context.AppConfigFilePath = Path.Combine(cfgPath,"dotnet-cnblog", CfgFileName);
 
             if (!File.Exists(context.AppConfigFilePath))
             {
